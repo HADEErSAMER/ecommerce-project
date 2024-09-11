@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
             </div>
             <hr></hr>
-            <div className="footer-rights">2023 furino. All rights reserved</div>
+            <div className="footer-rights">2023 Spark. All rights reserved</div>
         </footer>
     );
 }

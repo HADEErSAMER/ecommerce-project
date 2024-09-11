@@ -1,14 +1,5 @@
 
-.page-cover img {
-    background-image: url('../../../public/assets/pexels-burst-374894.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 310px;
-   filter: blur(2px);
-    position: relative;
-    
 
-}
 .cart-cover{
     position: relative;
 }

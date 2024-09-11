@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-regular-svg-icons";
-
+import mainimg from "/public/assets/pexels-burst-374894.jpg"
 
 export default function Cart() {
     const [cartProducts, setCartProducts] = useState([]);
@@ -24,7 +24,9 @@ export default function Cart() {
         <div className='cart-page'>
            
             <div className="cart-cover">
-                <div className='page-cover-img'> </div>
+                <div className='page-cover-img'>
+
+                     </div>
                
                 <span >Cart</span>
                

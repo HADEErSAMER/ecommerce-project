@@ -2,7 +2,7 @@
     position: relative;
 }
 .page-cover-img {
-    background-image: url('../../../public/assets/pexels-burst-374894.jpg');
+    background-image: url('public/assets/pexels-burst-374894.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 310px;
