@@ -1,0 +1,191 @@
+#mainspan{
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+.contact-page,
+.contact-page img {
+    width: 100%;
+    
+}
+.contact-page img {
+    height: 325px;
+    
+}
+
+.contact-page header {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 36px;
+}
+.contact-page header span {
+    display: block;
+    width: 32%;
+    color: #9F9F9F;
+    margin: 10px auto;
+    font-size: 16px;
+    
+}
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 70%;
+   
+   
+}
+.contact-physical {
+    flex-basis: 50%;
+   
+    
+}
+.contact-physical > div {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.contact-physical-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 30px;
+    width: 8%;
+
+}
+.contact-physical-info {
+    width: 40%;
+   
+}
+.contact-physical-info > span:first-child {
+    color: #000000;
+    font-size: 24px;
+    display: block;
+   font-weight: bold;
+}
+.contact-physical-info > span:last-child {
+    font-size: 16px;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    
+}
+.contact-form form {
+    width: 100%;
+   
+}
+.contact-form form > div {
+    margin-bottom: 30px;
+    
+}
+.contact-form form > div label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.contact-form form > div input,
+.contact-form form > div textarea {
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    font-size: 15px;
+}
+.contact-form form > div textarea {
+    height: 100px;
+    padding: 35px 20px;
+}
+.contact-form form > div button {
+    width: 45%;
+    height: 50px    ;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #b98e2f;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease background-color;
+}
+.contact-form form > div button:hover {
+    background-color: #a2781f;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-page header {
+       
+        font-size: 19px;
+    }
+    .contact-page header span {
+        
+        width: 90%;
+       
+        font-size: 16px;
+        
+    }
+    .contact-content {
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 10px auto;
+        width: 90%;
+       
+       
+    }
+    
+    .contact-physical {
+        flex-basis: 70%;
+            height: 300px;
+      
+       margin-left: 40px;
+       margin-top: 50px;
+        
+    }
+    .contact-physical > div {
+       
+        width: 350px;
+       gap: 10px;
+       
+
+
+    }
+    .contact-physical-info {
+        width: 70%;
+       
+       
+    }
+    .contact-form form {
+        width: 300px;
+       
+    }
+    .contact-physical-info > span:first-child {
+        font-size: 22px;
+    }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1400px) {
+    .contact-content {
+width: 90%;
+        
+    }
+
+    .contact-page header {
+       
+        font-size: 25px;
+    }
+    .contact-page header span {
+        
+        width: 90%;
+       
+        font-size: 18px;
+        
+    }
+}
