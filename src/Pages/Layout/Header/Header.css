@@ -174,16 +174,17 @@ footer .nav-to-cart > span {
 @media only screen and (max-width: 600px) {
     div.header-logo,
     div.cart-icon {
-        flex-basis: 3%;
+        flex-basis: 2%;
        
        
     }
     
     #logoname{
-        font-size: 25px;
+        font-size: 20px;
+
     }
     nav {
-        flex-basis: 3%;
+        flex-basis: 8%;
        
     }
     ul {
