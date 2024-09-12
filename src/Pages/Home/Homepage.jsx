@@ -4,8 +4,10 @@ import electronics from '/public/assets/electronics.webp';
 import jewelary from '/public/assets/Jewelary.webp';
 import mensClothing from '/public/assets/LCM-Street-Style-Day3-16-GQ-11Jan16_Robert-Spangle_.webp';
 import womanClothing from '/public/assets/pexels-olly-3760042.jpg';
+import mainimg from "/public/assets/pexels-burst-374894.jpg"
 import PropTypes from "prop-types";
 import "./Homepage.css";
+
 
 Category.propTypes = {
     title: PropTypes.string.isRequired,
